@@ -58,7 +58,7 @@
 
         <!-- Menu Bar -->
         <div class="menu-bar" style="margin-bottom: 1vh; text-align: center;">
-            <a href="javascript:void(0)" class="menubar" id="Lunchbar" onclick="openMenu(event, 'Lunch', 'Lunchbar');" id="myLink"> Lunch </a>
+            <a href="javascript:void(0)" class="menubar" id="Lunchbar" onclick="openMenu(event, 'Lunch', 'Lunchbar');"> Lunch </a>
             <a href="javascript:void(0)" class="menubar" id="Appetizersbar" onclick="openMenu(event, 'Appetizers', 'Appetizersbar');"> Appetizers </a>
             <a href="javascript:void(0)" class="menubar" id="Soupsbar" onclick="openMenu(event, 'Soups', 'Soupsbar');"> Soups </a>
             <a href="javascript:void(0)" class="menubar" id="Specialsbar" onclick="openMenu(event, 'Specials', 'Specialsbar');"> Specials </a>
@@ -1296,8 +1296,7 @@
             document.getElementById(menuName).style.display = "block";
             document.getElementById(menuNameBar).style.color = "black";
         }
-        document.getElementById("Lunchbar").style.color = "black";
-        document.getElementById("myLink").click();
+        document.getElementById("Lunchbar").click();
     </script>
 
 </body>
