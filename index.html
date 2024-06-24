@@ -13,8 +13,6 @@
         <img src="header.jpg" alt="Restaurant">
         <div class="centered">Ming's Garden</div>
     </div>
-    <!-- Restaurant Photo -->
-
 
 
     <!-- Restaurant Details -->
@@ -51,7 +49,6 @@
             <p style="font-size: 15px;">*Orders must have a minimum subtotal of $35.00. There is a $5.00 delivery fee, which is excluded from the subtotal. We deliver within Livermore city limits.</p>
         </div>
     </div>
-    <!-- Restaurant Details -->
 
 
     <!-- Menu Start -->
@@ -61,14 +58,14 @@
 
         <!-- Menu Bar -->
         <div class="menu-bar" style="margin-bottom: 1vh; text-align: center;">
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Lunch');" id="myLink"> Lunch </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Appetizers');"> Appetizers </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Soups');"> Soups </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Specials');"> Specials </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Protein');"> Protein </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Vegetables');"> Vegetables </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Party');"> Party </a>
-            <a href="javascript:void(0)" onclick="openMenu(event, 'Carbs');"> Carbs </a>
+            <a href="javascript:void(0)" class="menubar" id="Lunchbar" onclick="openMenu(event, 'Lunch', 'Lunchbar');" id="myLink"> Lunch </a>
+            <a href="javascript:void(0)" class="menubar" id="Appetizersbar" onclick="openMenu(event, 'Appetizers', 'Appetizersbar');"> Appetizers </a>
+            <a href="javascript:void(0)" class="menubar" id="Soupsbar" onclick="openMenu(event, 'Soups', 'Soupsbar');"> Soups </a>
+            <a href="javascript:void(0)" class="menubar" id="Specialsbar" onclick="openMenu(event, 'Specials', 'Specialsbar');"> Specials </a>
+            <a href="javascript:void(0)" class="menubar" id="Proteinbar" onclick="openMenu(event, 'Protein', 'Proteinbar');"> Protein </a>
+            <a href="javascript:void(0)" class="menubar" id="Vegetablesbar" onclick="openMenu(event, 'Vegetables', 'Vegetablesbar');"> Vegetables </a>
+            <a href="javascript:void(0)" class="menubar" id="Partybar" onclick="openMenu(event, 'Party', 'Partybar');"> Party </a>
+            <a href="javascript:void(0)" class="menubar" id="Carbsbar" onclick="openMenu(event, 'Carbs', 'Carbsbar');"> Carbs </a>
         </div>
 
         <!-- Lunch Special Start -->
@@ -84,6 +81,9 @@
                     <span style="color: black;">Steamed Rice, Fried Rice, Chow Mein, Brown Rice (+$0.50), Vegetable (+$0.50)</span></p>
             </div>
             <!-- Menu Dishes Begin -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Beef</h3>
+            </div>
             <div class="menu-options">
                 <div class="item-parent">
                     <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
@@ -151,6 +151,11 @@
                     <p class="item item-description"></p>
                     <p class="item item-price"> $14.50 </p>
                 </div>
+            </div>
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Chicken</h3>
+            </div>
+            <div class="menu-options">
                 <div class="item-parent">
                     <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
                     <h3 class="item item-name"> Kung Pao Chicken </h3> 
@@ -211,6 +216,11 @@
                     <p class="item item-description"></p>
                     <p class="item item-price"> $12.65 </p>
                 </div>
+            </div>
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Pork</h3>
+            </div>
+            <div class="menu-options">
                 <div class="item-parent">
                     <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
                     <h3 class="item item-name"> Pork with Spicy Garlic Sauce </h3> 
@@ -223,6 +233,11 @@
                     <p class="item item-description"></p>
                     <p class="item item-price"> $12.65 </p>
                 </div>
+            </div>
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Vegetable</h3>
+            </div>
+            <div class="menu-options">
                 <div class="item-parent">
                     <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
                     <h3 class="item item-name"> Braised Tofu </h3> 
@@ -253,6 +268,11 @@
                     <p class="item item-description"></p>
                     <p class="item item-price"> $12.25 </p>
                 </div>
+            </div>
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Seafood</h3>
+            </div>
+            <div class="menu-options">
                 <div class="item-parent">
                     <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
                     <h3 class="item item-name"> Prawns with String Beans </h3> 
@@ -1251,18 +1271,6 @@
                 </div>
             </div>   
         </div>
-    
-
-
-
-
-
-
-
-
-
-
-
 
         <div class="footer" style="margin-top: 4vh;"></div>
     </div>
@@ -1271,13 +1279,22 @@
 
 
     <script>
-        function openMenu(evt, menuName) {
+        function openMenu(evt, menuName, menuNameBar) {
             var i, x;
+
+            // Set all menu options' display to none
             x = document.getElementsByClassName("menu");
             for (i = 0; i < x.length; i++) {
                 x[i].style.display = "none";
             }
+            
+            // Set all menu bar options' color to gray
+            x = document.getElementsByClassName("menubar");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.color = "gray";
+            }
             document.getElementById(menuName).style.display = "block";
+            document.getElementById(menuNameBar).style.color = "black";
         }
         document.getElementById("myLink").click();
     </script>
