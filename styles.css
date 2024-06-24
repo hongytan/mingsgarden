@@ -32,6 +32,7 @@
 
 .day {
     color: rgb(174, 57, 57);
+    font-size: 2.5vh;
 }
 
 .time {
@@ -61,17 +62,24 @@ h1 {
     margin-bottom: 8vh;
 }
 
+.time p {
+    font-size: 4vh;
+}
+
+@media only screen and (max-width: 374px) {
+    .time p {
+        font-size: 3vh;
+    }
+    .day {
+        font-size: 2.3vh;
+    }
+}
+
 @media only screen and (max-width: 450px) {
     .item-parent {
         width: 100%;
     }
 }
-
-/* @media only screen and (min-width: 900px) {
-    .item-parent {
-        width: 33%;
-    }
-} */
 
 @media only screen and (min-width: 1200px) {
     .item-parent {
@@ -80,6 +88,9 @@ h1 {
     #header img {
         width: 100vw;
         height: 100vh;
+    }
+    .day {
+        font-size: 3vh;
     }
 }
 
@@ -96,7 +107,7 @@ h1 {
 a {
     text-decoration: none;
     color: gray;
-    font-size: 20px;
+    font-size: 2.5vh
 }
 
 .footer {
