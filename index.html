@@ -1,0 +1,1286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ming's Garden Menu</title>
+</head>
+<body>
+
+    <!-- Restaurant Photo -->
+    <div id="header">
+        <img src="images/header.jpg" alt="Restaurant">
+        <div class="centered">Ming's Garden</div>
+    </div>
+    <!-- Restaurant Photo -->
+
+
+
+    <!-- Restaurant Details -->
+    <div id="hour-loc">
+
+        <div class="time" style="margin-bottom: 4vh;">
+            <p style="font-size: 30px;">Dine-In, Pick-up, Delivery*</p>
+        </div>
+
+        <div style="margin-bottom: 2vh;">
+            <p class="day"> (925) 960 - 9998</p>
+        </div>
+
+        <div class="location" style="margin-bottom: 2vh; text-align: center;">
+            <p class="day"> 136 S. Vasco Road </p>
+            <p class="day"> Livermore Ca, 94551 </p>
+        </div>
+
+        <div class="hour" style="margin-bottom: 2vh; text-align: right;">
+            <p class="day">Monday - Thursday:
+                <span class="day"> 10:30AM - 9:00PM </span>
+            </p>
+
+            <p class="day">Friday:
+                <span class="day"> 10:30AM - 9:30PM </span>
+            </p>
+
+            <p class="day">Saturday:
+                <span class="day"> 11:00AM - 9:30PM </span>
+            </p>
+        </div>
+
+        <div>
+            <p style="font-size: 15px;">*Orders must have a minimum subtotal of $35.00. There is a $5.00 delivery fee, which is excluded from the subtotal. We deliver within Livermore city limits.</p>
+        </div>
+    </div>
+    <!-- Restaurant Details -->
+
+
+    <!-- Menu Start -->
+    <div id="menu" style="margin-top: 4vh;">
+
+        <h1 style="margin-bottom: 2vh; font-size: 4vh;">Menu</h1>
+
+        <!-- Menu Bar -->
+        <div class="menu-bar" style="margin-bottom: 1vh; text-align: center;">
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Lunch');" id="myLink"> Lunch </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Appetizers');"> Appetizers </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Soups');"> Soups </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Specials');"> Specials </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Protein');"> Protein </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Vegetables');"> Vegetables </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Party');"> Party </a>
+            <a href="javascript:void(0)" onclick="openMenu(event, 'Carbs');"> Carbs </a>
+        </div>
+
+        <!-- Lunch Special Start -->
+        <div id="Lunch" class="menu">
+            <!-- Lunch Special Description -->
+            <div class="description" style="text-align: center; margin-bottom: 8vh;">
+                <h2 style="color: red; font-size: 3vh;">Lunch Special</h2>
+                <p style="font-size: 2vh;">(Monday - Friday: 10:30AM - 3:00PM)</p>
+                <p style="font-size: 1.5vh; margin-bottom: 1vh;">Can be ordered outside of these hours for an additional $2.00.</p>
+                <p style="font-size: 2vh; color: red;">Includes: 
+                    <span style="color: black;">Soup of the day and salad. (For dine-in only)</span></p>
+                <p style="font-size: 2vh; color: red;">Choose two: 
+                    <span style="color: black;">Steamed Rice, Fried Rice, Chow Mein, Brown Rice (+$0.50), Vegetable (+$0.50)</span></p>
+            </div>
+            <!-- Menu Dishes Begin -->
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Mongolian Beef </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Oyster Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Broccoli </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Mixed Vegetables </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with String Beans </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Beef </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> House Special Beef </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Tomato Beef </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Kung Pao Beef </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $13.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Curry Beef Stew </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Bitter Melon Beef </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.50 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Kung Pao Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Mixed Vegetables </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Garlic Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sesame Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Broccoli </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Cashew Nut Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken in Brown Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Curry Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Orange Chicken </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Pork with Spicy Garlic Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Pork </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Braised Tofu </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Family Style Tofu </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Assorted Vegetables </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Eggplant with Spicy Garlic Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Hot and Spicy Tofu </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $12.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with String Beans </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Mixed Vegetables </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Lobster Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Spicy Garlic Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fish with Spicy Garlic Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fish with Black Bean Sauce </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Style Prawns </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Snow Peas Prawns </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Prawns </h3> 
+                    <p class="item item-description"></p>
+                    <p class="item item-price"> $14.00 </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Appetizers Start -->
+        <div id="Appetizers" class="menu">
+            <!-- Appetizers Description -->
+            <div class="description" style="text-align: center; margin-bottom: 8vh;">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Appetizers</h2>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Appetizers Dishes Begin -->
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Ming's Special Platter </h3> 
+                    <i class="item item-description">(For two or more)</i>
+                    <i class="item item-description">fried prawns, spring rolls, crab cheese puffs, chicken wings, teriyaki beef, and fried wonton</i>
+                    <p class="item item-price"> $15.85 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Shrimp Teriyaki </h3> 
+                    <i class="item item-description">(8 Pieces)</i>
+                    <p class="item item-price"> $12.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef Teriyaki </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $11.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken Teriyaki </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $11.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> House Salad </h3> 
+                    <p class="item item-price"> $9.25 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chinese Chicken Salad </h3> 
+                    <p class="item item-price"> $12.60 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fried Crispy Chicken Wings </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $10.35 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sliced Barbecued Pork </h3> 
+                    <p class="item item-price"> $12.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Crab Cheese Puffs </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $10.30 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Pot Stickers </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $12.60 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Spring Rolls </h3> 
+                    <i class="item item-description">(5 Pieces)</i>
+                    <p class="item item-price"> $10.30 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fried Won Ton </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $7.50 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fried Won Ton with Pork</h3> 
+                    <i class="item item-description">(8 Pieces)</i>
+                    <p class="item item-price"> $12.60 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> BBQ Pork Bun </h3> 
+                    <i class="item item-description">(4 Pieces)</i>
+                    <p class="item item-price"> $10.30 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Deep Fried Prawns </h3> 
+                    <i class="item item-description">(6 Pieces)</i>
+                    <p class="item item-price"> $12.35 </p>
+                </div>
+            </div>   
+        </div>
+
+        <!-- Soups Start -->
+        <div id="Soups" class="menu">
+            <!-- Soups Description -->
+            <div class="description" style="text-align: center; margin-bottom: 8vh;">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Soups</h2>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Soup Dishes Begin -->
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Seafood Chowder </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Wor Won Ton Soup </h3> 
+                    <p class="item item-description">Shrimp, Beef, and Chicken</p>
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sizzling Rice Soup </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Hot and Sour Soup </h3> 
+                    <p class="item item-price"> $12.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet Corn Chicken Chowder </h3> 
+                    <p class="item item-price"> $12.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Westlake Beef Soup </h3> 
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Golden Egg Flower Soup </h3> 
+                    <p class="item item-price"> $10.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Vegetable Tofu Soup </h3> 
+                    <p class="item item-price"> $10.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Wor Won Ton Noodle Soup </h3> 
+                    <p class="item item-price"> $15.25 </p>
+                </div>
+            </div>   
+        </div>
+
+        <!-- Specials Start -->
+        <div id="Specials" class="menu">
+            <!-- Specials Description -->
+            <div class="description">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Specials</h2>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Specials Dishes Begin -->
+            <!-- Ming's Recommends -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 2.5vh; margin-bottom: 1vh;">Ming's Recommends</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Minced Chicken in Lettuce Cup </h3>
+                    <p class="item item-description">chicken, onions, rice noodle, and lettuce</p>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Kung Pao Three Combo</h3> 
+                    <p class="item item-description">prawns, quick fried beef and chicken, peanuts, chili peppers, and scallions</p>
+                    <p class="item item-price"> $18.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Honey Glazed Walnut Prawns </h3> 
+                    <p class="item item-price"> $20.45 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Prawns </h3> 
+                    <p class="item item-price"> $20.45 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Chicken Wings </h3> 
+                    <p class="item item-price"> $12.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Peking Duck with Buns </h3> 
+                    <p class="item item-price"> (Half) $20.65</p>
+                    <p class="item item-price"> (Whole) $37.85</p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Roast Duck </h3> 
+                    <p class="item item-price"> (Half) $19.50</p>
+                    <p class="item item-price"> (Whole) $37.85</p>
+                </div>
+            </div>   
+
+            <!-- Special Sizzling Platters -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 2.5vh; margin-bottom: 1vh;">Special Sizzling Platters</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sizzling Beef with Black Pepper Sauce </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sizzling Jumbo Shrimp </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sizzling Combination Platter </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sizzling Seafood Fantasia </h3>
+                    <p class="item item-price"> $20.00 </p>
+                </div>  
+            </div>  
+            
+            <!-- Moo Shi -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 2.5vh; margin-bottom: 1vh;">Moo Shi</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Moo Shi </h3>
+                    <i class="item item-description">(Choice of Pork, Chicken, Beef, or Shrimp)</i>
+                    <p class="item item-price"> $16.50 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Peking Style Moo Shi </h3>
+                    <i class="item item-description">(Choice of Pork, Chicken, Beef, or Shrimp)</i>
+                    <p class="item item-price"> $16.50 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Vegetable Moo Shi </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>
+            </div> 
+
+            <!-- Egg Fu Young -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 2.5vh; margin-bottom: 1vh;">Egg Fu Young</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Egg Fu Young </h3>
+                    <i class="item item-description">(Choice of Pork, Chicken, Beef, or Shrimp)</i>
+                    <p class="item item-price"> $16.35 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Combination Egg Fu Young </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+            </div> 
+
+            <!-- Clay Pots -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 2.5vh; margin-bottom: 1vh;">Clay Pots</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Catfish Clay Pot </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef Eggplant Clay Plot </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Seafood Bean Curd Clay Pot </h3>
+                    <p class="item item-price"> $20.15</p>
+                </div>
+            </div> 
+
+            <!-- Family Dinner -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 2.5vh; margin-bottom: 1vh;">Family Dinner</h3>
+                <p style="font-size: 2vh; margin-bottom: 1vh;"> A well-balanced dinner chosen for you by us. </p>
+                <i style="font-size: 2vh;">(Minimum of 2)</i>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Dinner </h3>
+                    <p class="item item-description"> Hot & Sour Soup </p>
+                    <p class="item item-description"> Spring Rolls </p>
+                    <p class="item item-description"> Cashew Chicken </p>
+                    <p class="item item-description"> Mongolian Beef </p>
+                    <p class="item item-description"> Vegetable Fried Rice or Chow Mein </p>
+                    <p class="item item-description"> For 3: Sweet & Sour Pork </p>
+                    <p class="item item-description"> For 4: Spicy Garlic Sauce String Beans </p>
+                    <p class="item item-description"> For 5: Salt & Pepper Spare Ribs </p>
+                    <p class="item item-description"> For 6: Szechuan Prawns </p>
+                    <p class="item item-price"> $26.40 per person </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Peking Dinner </h3>
+                    <p class="item item-description"> Wor Won Ton Soup </p>
+                    <p class="item item-description"> Pot Stickers </p>
+                    <p class="item item-description"> Lemon Chicken </p>
+                    <p class="item item-description"> Broccoli Beef </p>
+                    <p class="item item-description"> BBQ Pork Fried Rice or Chow Mein </p>
+                    <p class="item item-description"> For 3: Peking Spare Ribs </p>
+                    <p class="item item-description"> For 4: Snow Peas with Water Chestnuts </p>
+                    <p class="item item-description"> For 5: Kung Pao Prawns </p>
+                    <p class="item item-description"> For 6: Fish Fillet with Black Bean Sauce </p>
+                    <p class="item item-price"> $28.65 per person </p>
+                </div>  
+            </div> 
+        </div>
+
+        <!-- Protein Start -->
+        <div id="Protein" class="menu">
+            <!-- Protein Description -->
+            <div class="description" style="text-align: center; margin-bottom: 8vh;">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Proteins</h2>
+                <p style="font-size: 2vh; margin-bottom: 1vh;">Chicken, Pork, Beef, and Seafood</p>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Proteins Dishes Begin -->
+            <!-- Chicken -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Chicken</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Kung Pao Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Cashew Nut Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Curry Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken in Brown Sauce </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Broccoli </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Fresh Mushroom </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Assorted Vegetables </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Snow Peas </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Garlic Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Lemon Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Orange Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sesame Crispy Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chicken with Spicy Garlic Sauce </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Hunan Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Honey Walnut Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> General Tao's Chicken </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+            </div>   
+
+            <!-- Pork -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Pork</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Pork </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Pork with Spicy Garlic Sauce </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div> 
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Peking Style Spare Ribs </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Spare Ribs </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Pork with Hot Pepper Sauce </h3>
+                    <p class="item item-price"> $15.75 </p>
+                </div>  
+            </div>  
+            
+            <!-- Beef -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Beef</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> House Special Beef </h3>
+                    <i class="item item-description">Tender beef sauteed with special spicy sauce</i>
+                    <p class="item item-price"> $16.95 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Mongolian Beef </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Oyster Sauce </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Broccoli </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Assorted Vegetables </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Tomato Beef </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with Snow Peas </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef with String Beans </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Ginger Beef </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Curry Beef </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Hunan Spiced Beef </h3>
+                    <p class="item item-price"> $16.65 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Beef </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sesame Beef </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Orange Beef </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div> 
+            </div> 
+
+            <!-- Seafood -->
+            <div class="description" style="text-align: center; margin-bottom: 3vh;">
+                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Seafood</h3>
+            </div>
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Cashew Nut Prawns </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Assorted Vegetables </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Broccoli </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Snow Peas </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Lobster Sauce </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Kung Pao Prawns </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with Spicy Garlic Sauce </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sauteed Prawns with Chili Sauce </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Prawns with String Beans </h3>
+                    <p class="item item-price"> $17.55 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fish Fillet with String Beans </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Fish Fillet </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fish Fillet with Assorted Vegetables </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Prawns </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Prawns </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Calamari </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Crispy Fish Fillet with Hunan Sauce </h3>
+                    <p class="item item-price"> $17.75 </p>
+                </div>  
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Seafood Fantasia with Spicy Garlic Sauce </h3>
+                    <p class="item item-price"> $18.95 </p>
+                </div>
+            </div> 
+        </div>
+
+        <!-- Vegetables Start -->
+        <div id="Vegetables" class="menu">
+            <!-- Vegetables Description -->
+            <div class="description" style="text-align: center; margin-bottom: 8vh;">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Vegetables</h2>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Vegetables Dishes Begin -->
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Assorted Vegetables </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Snow Peas with Water Chestnuts </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Black Mushroom with Chinese Green </h3> 
+                    <p class="item item-price"> $14.50 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Spicy Garlic Sauce Eggplant </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Dry Cooked String Beans </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Spicy Garlic Sauce String Beans </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Hot and Spicy Tofu </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Family Style Tofu </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Braised Tofu </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Tofu with Vegetables </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Tofu </h3> 
+                    <p class="item item-price"> $13.75 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chinese Greens with Garlic Sauce </h3> 
+                    <p class="item item-price"> $11.95 </p>
+                </div>
+            </div>   
+        </div>
+
+        <!-- Party Start -->
+        <div id="Party" class="menu">
+            <!-- Party Description -->
+            <div class="description">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Party Trays</h2>
+                <p style="font-size: 2vh; margin-bottom: 1vh;"> Big trays for catering  </p>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Party Dishes Begin -->
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Egg Rolls </h3>
+                    <i class="item item-description">(50 Pieces)</i>
+                    <p class="item item-price"> $75.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Pot Stickers </h3>
+                    <i class="item item-description">(50 Pieces)</i>
+                    <p class="item item-price"> $78.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chinese Chicken Salad </h3>
+                    <p class="item item-price"> (S) $46.00 </p>
+                    <p class="item item-price"> (M) $65.00 </p>
+                    <p class="item item-price"> (L) $85.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fried Rice </h3>
+                    <i class="item item-description">(Choice of Chicken, Pork, or Vegetable)</i>
+                    <p class="item item-price"> (S) $50.00 </p>
+                    <p class="item item-price"> (M) $75.00 </p>
+                    <p class="item item-price"> (L) $92.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Mixed Vegetables </h3>
+                    <p class="item item-price"> (S) $50.00 </p>
+                    <p class="item item-price"> (M) $75.00 </p>
+                    <p class="item item-price"> (L) $92.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Combination Fried Rice or Chow Mein </h3>
+                    <i class="item item-description">Chicken, Shrimp, and Beef</i>
+                    <p class="item item-price"> (S) $50.00 </p>
+                    <p class="item item-price"> (M) $75.00 </p>
+                    <p class="item item-price"> (L) $92.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Kung Pao Chicken </h3>
+                    <p class="item item-price"> (S) $58.00 </p>
+                    <p class="item item-price"> (M) $80.00 </p>
+                    <p class="item item-price"> (L) $115.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Sweet and Sour Chicken or Pork </h3>
+                    <p class="item item-price"> (S) $58.00 </p>
+                    <p class="item item-price"> (M) $80.00 </p>
+                    <p class="item item-price"> (L) $115.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Broccoli Beef </h3>
+                    <p class="item item-price"> (S) $65.00 </p>
+                    <p class="item item-price"> (M) $88.00 </p>
+                    <p class="item item-price"> (L) $120.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Szechuan Beef </h3>
+                    <p class="item item-price"> (S) $65.00 </p>
+                    <p class="item item-price"> (M) $88.00 </p>
+                    <p class="item item-price"> (L) $120.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Honey Walnut Prawns </h3>
+                    <p class="item item-price"> (S) $75.00 </p>
+                    <p class="item item-price"> (M) $115.00 </p>
+                    <p class="item item-price"> (L) $150.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Prawns </h3>
+                    <p class="item item-price"> (S) $75.00 </p>
+                    <p class="item item-price"> (M) $115.00 </p>
+                    <p class="item item-price"> (L) $150.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Salt and Pepper Fish </h3>
+                    <p class="item item-price"> (S) $70.00 </p>
+                    <p class="item item-price"> (M) $105.00 </p>
+                    <p class="item item-price"> (L) $140.00 </p>
+                </div>
+            </div>   
+        </div>
+
+        <!-- Carbs Start -->
+        <div id="Carbs" class="menu">
+            <!-- Carbs Description -->
+            <div class="description">
+                <h2 style="color: red; font-size: 3vh; margin-bottom: 1vh;">Fried Rice and Chow Mein</h2>
+                <i style="font-size: 2vh;">Served All day</i>
+            </div>
+
+            <!-- Party Dishes Begin -->
+            <div class="menu-options">
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Chow Mein </h3>
+                    <i class="item item-description"> (Choice of Pork, Chicken, Vegetable, or Beef) </i>
+                    <p class="item item-price"> $13.50 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Fried Rice </h3>
+                    <i class="item item-description"> (Choice of Pork, Chicken, Vegetable, or Beef) </i>
+                    <p class="item item-price"> $13.50 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Combination Chow Mein </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Shrimp Chow Mein </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Hong Kong Crispy Noodles </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Assorted Soup Noodles </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Soup Noodles with Meat and Vegetable </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Tomato Beef Chow Mein </h3>
+                    <p class="item item-price"> $15.85 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Combination Fried Rice </h3>
+                    <p class="item item-price"> $15.85 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Shrimp Fried Rice </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Bacon Fried Rice </h3>
+                    <p class="item item-price"> $15.85 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Seafood Fried Rice </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Young Chow Fried Rice </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Singapore Style Curry Rice Noodles </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Combination Rice Noodles </h3>
+                    <p class="item item-price"> $16.95 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Beef Chow Fun </h3>
+                    <p class="item item-price"> $15.85 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Seafood Chow Fun </h3>
+                    <p class="item item-price"> $18.15 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Steamed Rice </h3>
+                    <p class="item item-price"> $2.00 </p>
+                </div>
+                <div class="item-parent">
+                    <!-- <img class="item item-img" src="/images/wonton.jpg" alt="wonton"> -->
+                    <h3 class="item item-name"> Brown Fun </h3>
+                    <p class="item item-price"> $2.50 </p>
+                </div>
+            </div>   
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="footer" style="margin-top: 4vh;"></div>
+    </div>
+    <!-- Menu End -->
+
+
+
+    <script>
+        function openMenu(evt, menuName) {
+            var i, x;
+            x = document.getElementsByClassName("menu");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            document.getElementById(menuName).style.display = "block";
+        }
+        document.getElementById("myLink").click();
+    </script>
+
+</body>
+</html>
