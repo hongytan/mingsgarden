@@ -102,9 +102,12 @@ h1 {
 .menu-bar {
     padding: 10px;
     background-color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-a {
+.menu-bar a {
     text-decoration: none;
     color: gray;
     font-size: 3vh;
