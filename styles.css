@@ -11,14 +11,14 @@
     width: 100vw;
 }
 
-.centered {
+/* .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
     font-size: 8vw;
-}
+} */
 
 #hour-loc {
     display: flex;
@@ -33,10 +33,6 @@
 .day {
     color: rgb(174, 57, 57);
     font-size: 2.4vh;
-}
-
-.time {
-    color: red;
 }
 
 p {
@@ -62,16 +58,17 @@ h1 {
     margin-bottom: 8vh;
 }
 
-.time p {
-    font-size: 3.5vh;
+.desc-options {
+    font-size: 3vh;
+    color: red;
 }
 
-@media only screen and (max-width: 374px) {
-    .time p {
-        font-size: 3vh;
+@media only screen and (max-width: 400px) {
+    .desc-options {
+        font-size: 2.5vh;
     }
     .day {
-        font-size: 2.3vh;
+        font-size: 2vh;
     }
 }
 
