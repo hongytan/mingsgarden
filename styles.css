@@ -11,13 +11,22 @@
     width: 100vw;
 }
 
+.online {
+    border-style: solid; 
+    padding: 10px;
+    background-color: red;
+    color: antiquewhite;
+    font-size: 2vh;
+    text-decoration: none;
+}
+
 /* .centered {
     position: absolute;
-    top: 50%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: whitesmoke;
-    font-size: 8vw;
+    font-size: 12px;
 } */
 
 #hour-loc {
@@ -59,13 +68,13 @@ h1 {
 }
 
 .desc-options {
-    font-size: 3vh;
+    font-size: 4vh;
     color: red;
 }
 
 @media only screen and (max-width: 400px) {
     .desc-options {
-        font-size: 2.5vh;
+        font-size: 3vh;
     }
     .day {
         font-size: 2vh;
