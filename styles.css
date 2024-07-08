@@ -11,6 +11,11 @@
     width: 100vw;
 }
 
+.online-box {
+    margin-bottom: 2vh;
+    display: flex;
+}
+
 .online {
     border-style: solid; 
     padding: 10px;
