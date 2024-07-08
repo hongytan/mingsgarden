@@ -107,8 +107,9 @@ h1 {
 }
 
 .item-img {
-    height: 175px;
+    height: 150px;
     border-radius: 1rem;
+    margin-bottom: 1vh;
 }
 
 .menu-bar {
@@ -124,10 +125,6 @@ h1 {
     color: gray;
     font-size: 3vh;
     padding: 1vh;
-}
-
-.item-img {
-    margin-bottom: 1vh;
 }
 
 .item-name {
