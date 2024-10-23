@@ -146,11 +146,3 @@ h1 {
     text-align: center; 
     margin-bottom: 8vh;
 }
-
-#photomenu {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4vh;
-}
