@@ -147,7 +147,7 @@ h1 {
     margin-bottom: 8vh;
 }
 
-#photo-menu {
+#photomenu {
     display: flex;
     flex-direction: column;
     justify-content: center;
