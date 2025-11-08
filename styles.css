@@ -112,7 +112,7 @@ h1 {
     margin-bottom: 1vh;
 }
 
-.menu-bar {
+.menu-bar, .menu-bar2 {
     padding: 10px;
     background-color: bisque;
     display: flex;
@@ -120,7 +120,11 @@ h1 {
     justify-content: center;
 }
 
-.menu-bar a {
+.menu-bar2 {
+    background-color: rgb(253, 239, 221);
+}
+
+.menu-bar a, .menu-bar2 a {
     text-decoration: none;
     color: gray;
     font-size: 3vh;

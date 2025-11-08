@@ -118,266 +118,288 @@
                 <p style="font-size: 2vh; color: red; margin-bottom: 2vh;">Choose two: 
                     <span style="color: black;">Steamed Rice, Fried Rice, Chow Mein, Brown Rice (+$0.50), Vegetable (+$0.50)</span></p>
                 <i style="font-size: 1.5vh; margin-bottom: 1vh;">*For dine-in only; excluded on holidays.</i>
-                
+            </div>
+
+            <!-- Lunch Special Meat/Veg Selection Bar -->
+            <div class="menu-bar2" style="margin-bottom: 1vh; text-align: center;">
+                <a href="javascript:void(0)" class="meatbar" id="BeefMbar" onclick="selectMeatVeg(event, 'BeefM', 'BeefMbar');"> Beef</a>
+                <a href="javascript:void(0)" class="meatbar" id="ChickenMbar" onclick="selectMeatVeg(event, 'ChickenM', 'ChickenMbar');"> Chicken </a>
+                <a href="javascript:void(0)" class="meatbar" id="PorkMbar" onclick="selectMeatVeg(event, 'PorkM', 'PorkMbar');"> Pork </a>
+                <a href="javascript:void(0)" class="meatbar" id="VegetableMbar" onclick="selectMeatVeg(event, 'VegetableM', 'VegetableMbar');"> Vegetable </a>
+                <a href="javascript:void(0)" class="meatbar" id="SeafoodMbar" onclick="selectMeatVeg(event, 'SeafoodM', 'SeafoodMbar');"> Seafood </a>
             </div>
             <!-- Menu Dishes Begin -->
-            <div style="text-align: center; margin-bottom: 3vh;">
-                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Beef</h3>
-            </div>
-            <div class="menu-options">
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Mongolian Beef </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.25 </p>
+            <div id="BeefM" class="meat">
+                <div style="text-align: center; margin-bottom: 3vh;">
+                    <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Beef</h3>
                 </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Beef with Oyster Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.25 </p>
-                </div>
-                <div class="item-parent">
-                    <img class="item-img" src="images/lunch/broccoli_beef.jpeg" alt="Photo of Beef with Broccoli">
-                    <h3 class="item item-name"> Beef with Broccoli </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Beef with Mixed Vegetables </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Beef with String Beans </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Szechuan Beef </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.75 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> House Special Beef </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.75 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Tomato Beef </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $13.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Kung Pao Beef </h3> 
-                    <i class="item item-description"></i>
-                    <p class="item item-price"> $13.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Curry Beef Stew </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.95 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Bitter Melon Beef </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.50 </p>
-                </div>
-            </div>
-            <div style="text-align: center; margin-bottom: 3vh;">
-                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Chicken</h3>
-            </div>
-            <div class="menu-options">
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Kung Pao Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Chicken with Mixed Vegetables </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Garlic Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Sesame Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Chicken with Broccoli </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Sweet and Sour Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Cashew Nut Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Chicken in Brown Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Curry Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Orange Chicken </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
+                <div class="menu-options">
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Mongolian Beef </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Beef with Oyster Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <img class="item-img" src="images/lunch/broccoli_beef.jpeg" alt="Photo of Beef with Broccoli">
+                        <h3 class="item item-name"> Beef with Broccoli </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Beef with Mixed Vegetables </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Beef with String Beans </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Szechuan Beef </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.75 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> House Special Beef </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.75 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Tomato Beef </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Kung Pao Beef </h3> 
+                        <i class="item item-description"></i>
+                        <p class="item item-price"> $13.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Curry Beef Stew </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.95 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Bitter Melon Beef </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.50 </p>
+                    </div>
                 </div>
             </div>
-            <div style="text-align: center; margin-bottom: 3vh;">
-                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Pork</h3>
+
+            <div id="ChickenM" class="meat">
+                <div style="text-align: center; margin-bottom: 3vh;">
+                    <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Chicken</h3>
+                </div>
+                <div class="menu-options">
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Kung Pao Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Chicken with Mixed Vegetables </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Garlic Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Sesame Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Chicken with Broccoli </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Sweet and Sour Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Cashew Nut Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Chicken in Brown Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Curry Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Orange Chicken </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                </div>
             </div>
-            <div class="menu-options">
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Pork with Spicy Garlic Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
+
+            <div id="PorkM" class="meat">
+                <div style="text-align: center; margin-bottom: 3vh;">
+                    <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Pork</h3>
                 </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Sweet and Sour Pork </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-                <div class="item-parent">
-                    <img class="item-img" src="images/lunch/salt_pepper_spareribs.jpeg" alt="Photo of Salt and Pepper Spare Ribs">
-                    <h3 class="item item-name"> Salt and Pepper Spare Ribs </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.65 </p>
-                </div>
-            </div>
-            <div style="text-align: center; margin-bottom: 3vh;">
-                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Vegetable</h3>
-            </div>
-            <div class="menu-options">
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Braised Tofu </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Family Style Tofu </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.25 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Assorted Vegetables </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.25 </p>
-                </div>
-                <div class="item-parent">
-                    <img class="item-img" src="images/lunch/eggplant_spicy_garlic_sauce.jpeg" alt="Photo of Eggplant with Spicy Garlic Sauce">
-                    <h3 class="item item-name"> Eggplant with Spicy Garlic Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.25 </p>
-                </div>
-                <div class="item-parent">
-                    <img class="item-img" src="images/lunch/hot_spicy_tofu.jpeg" alt="Photo of Hot and Spicy Tofu">
-                    <h3 class="item item-name"> Hot and Spicy Tofu </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $12.25 </p>
+                <div class="menu-options">
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Pork with Spicy Garlic Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Sweet and Sour Pork </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
+                    <div class="item-parent">
+                        <img class="item-img" src="images/lunch/salt_pepper_spareribs.jpeg" alt="Photo of Salt and Pepper Spare Ribs">
+                        <h3 class="item item-name"> Salt and Pepper Spare Ribs </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.65 </p>
+                    </div>
                 </div>
             </div>
-            <div style="text-align: center; margin-bottom: 3vh;">
-                <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Seafood</h3>
+
+            <div id="VegetableM" class="meat">
+                <div style="text-align: center; margin-bottom: 3vh;">
+                    <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Vegetable</h3>
+                </div>
+                <div class="menu-options">
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Braised Tofu </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Family Style Tofu </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Assorted Vegetables </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <img class="item-img" src="images/lunch/eggplant_spicy_garlic_sauce.jpeg" alt="Photo of Eggplant with Spicy Garlic Sauce">
+                        <h3 class="item item-name"> Eggplant with Spicy Garlic Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.25 </p>
+                    </div>
+                    <div class="item-parent">
+                        <img class="item-img" src="images/lunch/hot_spicy_tofu.jpeg" alt="Photo of Hot and Spicy Tofu">
+                        <h3 class="item item-name"> Hot and Spicy Tofu </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $12.25 </p>
+                    </div>
+                </div>
             </div>
-            <div class="menu-options">
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Prawns with String Beans </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
+
+            <div id="SeafoodM" class="meat">
+                <div style="text-align: center; margin-bottom: 3vh;">
+                    <h3 style="color: rgb(239, 59, 59); font-size: 3vh; margin-bottom: 1vh;">Seafood</h3>
                 </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Prawns with Mixed Vegetables </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <img class="item-img" src="images/lunch/prawns_with_lobster_sauce.jpeg" alt="Photo of prawns with lobster sauce">
-                    <h3 class="item item-name"> Prawns with Lobster Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Prawns with Spicy Garlic Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Fish with Spicy Garlic Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Fish with Black Bean Sauce </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Szechuan Style Prawns </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Snow Peas Prawns </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
-                    <h3 class="item item-name"> Sweet and Sour Prawns </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
-                </div>
-                <div class="item-parent">
-                    <img class="item-img" src="images/lunch/broccoli_shrimp.jpeg" alt="Photo of Prawns with Broccoli">
-                    <h3 class="item item-name"> Prawns with Broccoli </h3> 
-                    <p class="item item-description"></p>
-                    <p class="item item-price"> $14.00 </p>
+                <div class="menu-options">
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Prawns with String Beans </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Prawns with Mixed Vegetables </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <img class="item-img" src="images/lunch/prawns_with_lobster_sauce.jpeg" alt="Photo of prawns with lobster sauce">
+                        <h3 class="item item-name"> Prawns with Lobster Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Prawns with Spicy Garlic Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Fish with Spicy Garlic Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Fish with Black Bean Sauce </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Szechuan Style Prawns </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Snow Peas Prawns </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <!-- <img class="item-img" src="images/temp.jpg" alt="Photo of temp"> -->
+                        <h3 class="item item-name"> Sweet and Sour Prawns </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
+                    <div class="item-parent">
+                        <img class="item-img" src="images/lunch/broccoli_shrimp.jpeg" alt="Photo of Prawns with Broccoli">
+                        <h3 class="item item-name"> Prawns with Broccoli </h3> 
+                        <p class="item item-description"></p>
+                        <p class="item item-price"> $14.00 </p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1516,6 +1538,25 @@
             document.getElementById(menuNameBar).style.color = "black";
         }
         document.getElementById("Lunchbar").click();
+
+        function selectMeatVeg(evt, menuName, menuNameBar) {
+            var i, x;
+
+            // Set all menu options' display to none
+            x = document.getElementsByClassName("meat");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            
+            // Set all menu bar options' color to gray
+            x = document.getElementsByClassName("meatbar");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.color = "rgb(255, 50, 50)";
+            }
+            document.getElementById(menuName).style.display = "block";
+            document.getElementById(menuNameBar).style.color = "darkred";
+        }
+        document.getElementById("BeefMbar").click();
     </script>
 
 </body>
