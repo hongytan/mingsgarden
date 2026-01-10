@@ -46,14 +46,14 @@
 }
 
 .ordering {
-    border-style: solid; 
-    padding: 10px;
+    padding: 2vh;
     background-color: red;
-    color: antiquewhite;
+    color: whitesmoke;
     font-size: 2vh;
     text-decoration: none;
     text-align: center;
     margin: 0 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .day {
