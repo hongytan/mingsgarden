@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="header.css">
     <link rel="icon" type="image/png" href="images/favicon.png">
     <title>Ming's Garden</title>
     <meta name="description" content="A cozy neighborhood Chinese restaurant serving authentic Mandarin dishes, located in a small strip mall with quick, friendly service.">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ming's Garden",
+        "url": "https://mingsgardenmenu.com/"
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Ming's Garden",
+        "url": "https://mingsgardenmenu.com/",
+        "servesCuisine": "Mandarin Chinese",
+        "priceRange": "$$"
+    }
+    </script>
+
+
 </head>
 <body>
+
+    <header class="site-header">
+        <div class="header-inner">
+            <h1 class="logo"><a href="/">Ming's Garden</a></h1>
+
+            <nav>
+            <a href="#menu">Menu</a>
+            </nav>
+        </div>
+    </header>
+
 
     <!-- Restaurant Photo -->
     <div id="header">
@@ -70,7 +102,7 @@
     <!-- Menu Start -->
     <div id="menu" style="margin-top: 4vh;">
 
-        <h1 style="margin-bottom: 2vh; font-size: 4vh;">Menu</h1>
+        <h2 style="margin-bottom: 2vh; font-size: 4vh;">Menu</h2>
 
         <!-- Menu Bar -->
         <div class="menu-bar" style="margin-bottom: 1vh; text-align: center;">

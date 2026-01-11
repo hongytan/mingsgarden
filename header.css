@@ -1,0 +1,35 @@
+.site-header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: transparent;
+  backdrop-filter: blur(10px); 
+  -webkit-backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+.header-inner {
+  max-width: 1100px;
+  margin: auto;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: red;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
