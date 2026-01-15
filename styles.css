@@ -129,7 +129,7 @@ h2 {
 }
 
 .menu-bar, .menu-bar2 {
-    padding: 10px;
+    padding: 5px;
     background-color: bisque;
     display: flex;
     flex-wrap: wrap;
@@ -143,7 +143,7 @@ h2 {
 .menu-bar a, .menu-bar2 a {
     text-decoration: none;
     color: gray;
-    font-size: 3vh;
+    font-size: 2vh;
     padding: 1vh;
 }
 
