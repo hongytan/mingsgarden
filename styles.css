@@ -65,8 +65,8 @@
 }
 
 .day {
-  width: 120px;
-  height: 80px;
+  width: 30vw;
+  height: 10vh;
   border: 1px solid #ccc;
   display: flex;
   align-items: center;
