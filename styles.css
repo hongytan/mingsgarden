@@ -56,13 +56,46 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+.week {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 1.5vh;
+}
+
 .day {
-    color: black;
-    font-size: 2.4vh;
+  width: 120px;
+  height: 80px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: rgb(255, 218, 173);
+  flex-direction: column;
+  text-align: center; 
+}
+
+.day_day {
+    margin-bottom: 1vh;
+}
+
+.day_day p {
+    font-size: 1.5vh;
+}
+
+.day_time {
+    color: rgb(214, 44, 44);
+}
+
+.day_time p {
+    font-size: 1.5vh;
 }
 
 .location {
-    color: rgb(174, 57, 57);
+    /* color: rgb(174, 57, 57); */
+    color: black;
     font-size: 2.4vh;
 }
 
@@ -98,9 +131,6 @@ h2 {
     .desc-options {
         font-size: 3vh;
     }
-    .day {
-        font-size: 2vh;
-    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -116,9 +146,6 @@ h2 {
     #header img {
         width: 100vw;
         height: 100vh;
-    }
-    .day {
-        font-size: 3vh;
     }
 }
 
